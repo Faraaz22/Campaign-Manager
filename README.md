@@ -1,7 +1,8 @@
+
+
 ## 🗂️ Project Structure
 
-```
-
+```text
 ARIN ASSESMENT/
 ├── backend/
 │   ├── config/
@@ -25,12 +26,11 @@ ARIN ASSESMENT/
 │   │   ├── App.js
 │   │   └── index.js
 ├── README.md
+```
 
-````
+---
 
-````
-
-### Running the Backend
+### 🛠️ Running the Backend
 
 1. Navigate to the backend directory:
 
@@ -46,7 +46,7 @@ ARIN ASSESMENT/
 
 3. Create a `.env` file with your environment variables (e.g., database credentials, JWT secret):
 
-   ```
+   ```env
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=yourpassword
@@ -60,12 +60,9 @@ ARIN ASSESMENT/
    node index.js
    ```
 
-   By default, it will run on `http://localhost:5000`
-
 ---
 
-
-### Running the Frontend
+### 💻 Running the Frontend
 
 1. Navigate to the frontend directory:
 
